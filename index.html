@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="words.js"></script>
+  </head>
+
+  <body>
+    <!-- The Modal -->
+    <div id="word-info" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2 id="result">Modal Header</h2>
+        </div>
+        <div class="modal-body" id="definitions">
+          <p style="display: inline-block;">The word is</p><h3 id="word" style="display: inline-block; margin-left: 5px;"></h3>
+        </div>
+      </div>
+
+    </div>
+
+    <h1 style="text-align: center; font-weight: 700; font-size: xxx-large; color: #e8eaed">Wordle</h1>
+
+    <div class="game-container">
+      <div class="word-container">
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+      </div>
+      <div class="word-container">
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+      </div>
+      <div class="word-container">
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+      </div>
+      <div class="word-container">
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+      </div>
+      <div class="word-container">
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+      </div>
+      <div class="word-container">
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+        <div class="letter"></div>
+      </div>
+    </div>
+
+    <button onclick="resetGame()" id="newGameBtn">New Game</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
